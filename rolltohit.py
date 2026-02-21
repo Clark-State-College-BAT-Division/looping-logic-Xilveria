@@ -16,7 +16,6 @@ diceRoll = 0
 
 for i in range(diceCount):
     diceRoll = random.randint(1,6)
-    print(f"Roll is {diceRoll}.")
     if diceRoll >= hitTarget:
         hitCount += 1
 
